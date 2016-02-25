@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_bottom_div">
+    <!-- padding 内边距   layout_margin 外边距
+  		android:layout_alignParentTop 布局的位置是否处于顶部 -->
+
+
+    <!--<LinearLayout-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_gravity="right"-->
+        <!--android:weightSum="1"-->
+        <!--android:visibility="invisible">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/orderTopTextView"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:text="座位:10   订单:10  总共:130元 "-->
+            <!--android:background="@drawable/main_bottom_div"-->
+            <!--style="@style/text_18_mainTextColor"-->
+            <!--android:autoText="false"-->
+            <!--android:visibility="invisible" />-->
+
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="25dp">
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="已点："
+            android:id="@+id/orderDetailNumber_textView"
+            android:background="@color/mainColor"
+            style="@style/text_24_ffffff_sdw"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="数量  单价  总价："
+            android:id="@+id/orderDetailTotal_textView"
+            style="@style/text_24_ffffff_sdw"
+            android:background="@color/mainColor" />
+    </LinearLayout>
+
+    <TableLayout
+android:layout_width="match_parent"
+android:layout_height="480dp"
+android:stretchColumns="1"
+	android:layout_weight="0.95"
+        android:background="@color/secondmainColor">
+
+  <TableLayout
+android:layout_width="wrap_content"
+android:layout_height="250dp"
+   android:numColumns="2"
+      android:background="@color/secondmainColor">
+
+      <TableRow
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent">
+
+          <ListView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/orderDetailListView"
+              android:divider="@color/white"
+              android:dividerHeight="1dp" />
+
+      </TableRow>
+
+  </TableLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@color/mainColor">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="已选："
+                android:id="@+id/textView2"
+                style="@style/text_24_ffffff_sdw"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView"
+                style="@style/text_24_ffffff_sdw"
+                android:text="数量  单价  备注" />
+        </LinearLayout>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+            android:id="@+id/orderDetailListView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+                android:background="@color/secondmainColor"
+                style="@style/text_18_mainTextColor"
+                android:divider="@color/white"
+                android:dividerHeight="1dp" />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/main_bottom_div"
+        android:padding="5dp"
+        android:layout_weight="0.06">
+
+        <Button
+android:text="@string/pay"
+android:id="@+id/pay_btn"
+android:layout_width="wrap_content"
+android:layout_height="match_parent"
+android:background="@drawable/btn_selector"
+            android:layout_weight="0.15"
+            android:textColor="@color/fontwhiteColor" />
+
+        <Button
+android:text="@string/orderfood"
+android:id="@+id/addfood_btn"
+android:layout_width="wrap_content"
+android:layout_height="match_parent"
+android:background="@drawable/btn_selector"
+            android:layout_weight="0.15"
+            android:textColor="@color/fontwhiteColor" />
+
+        <Button
+android:text="@string/submitorder"
+android:id="@+id/submitorder_btn"
+android:layout_width="wrap_content"
+android:layout_height="match_parent"
+android:background="@drawable/btn_selector"
+            android:layout_weight="0.15"
+            android:textColor="@color/fontwhiteColor" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+

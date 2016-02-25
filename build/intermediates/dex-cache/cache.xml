@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/libs/jpush-android-2.0.6.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="970e671dce88c41ca0b207e7f5383dae2a2253ce">
+        <dex dex="/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/pre-dexed/debug/jpush-android-2.0.6_7e29bc222b7dd54e4c87fcbc4faef5bd07df4e66.jar" />
+    </item>
+
+</items>

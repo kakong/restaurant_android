@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	 >
+
+
+	<TableRow
+		android:layout_width="match_parent"
+		android:layout_height="35dp"
+        android:background="@drawable/dialog_div"
+        style="@style/Dialog">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+        android:text="编号"
+        android:id="@+id/spinner_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="20px"
+        android:textColor="@color/mainColor"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="21dp" />
+
+            <TextView
+    android:text="菜名"
+    android:id="@+id/spinner_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/mainColor"
+                android:layout_alignTop="@+id/spinner_id"
+                android:layout_toRightOf="@+id/spinner_id" />
+
+            <TextView
+        android:text="价格"
+        android:id="@+id/spinner_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="20px"
+        android:textColor="@color/mainColor"
+                android:paddingLeft="20dp"
+                android:layout_alignTop="@+id/spinner_name"
+                android:layout_toRightOf="@+id/spinner_name" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="元"
+                android:id="@+id/textView6"
+                android:textColor="@color/mainColor"
+                android:layout_alignTop="@+id/spinner_price"
+                android:layout_toRightOf="@+id/spinner_price" />
+        </RelativeLayout>
+
+    </TableRow>
+
+</LinearLayout>

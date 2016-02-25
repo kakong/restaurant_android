@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="菜名"
+            android:id="@+id/name_list"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            style="@style/text_20_ffffff_sdw"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="数量"
+            android:id="@+id/num_list"
+            style="@style/text_20_ffffff_sdw"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="价格"
+            android:id="@+id/price_list"
+            style="@style/text_20_ffffff_sdw"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/num_list"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="备注"
+            android:id="@+id/remark_list"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/price_list"
+            android:layout_marginLeft="10dp"
+            style="@style/text_20_ffffff_sdw" />
+
+    </RelativeLayout>
+</LinearLayout>

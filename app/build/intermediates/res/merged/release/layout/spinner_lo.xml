@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	 >
+
+
+	<TableRow
+		android:layout_width="match_parent"
+		android:layout_height="27dp"
+        android:background="@drawable/dialog_div"
+        style="@style/Dialog">
+
+		<TextView
+    android:text="编号"
+    android:id="@+id/spinner_id"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingRight="20px"
+    android:textColor="@color/mainColor"
+    />
+
+        <TextView
+android:text="菜名"
+android:id="@+id/spinner_name"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textColor="@color/mainColor"/>
+
+        <TextView
+    android:text="价格"
+    android:id="@+id/spinner_price"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingRight="20px"
+    android:textColor="@color/mainColor"
+            android:paddingLeft="20dp" />
+
+    </TableRow>
+
+</LinearLayout>

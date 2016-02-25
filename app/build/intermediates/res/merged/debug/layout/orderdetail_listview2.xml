@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp">
+
+        <TextView
+        android:text="编号"
+        android:id="@+id/id_ListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            style="@style/text_20_ffffff_sdw"
+            android:visibility="invisible" />
+
+        <TextView
+    android:text="菜名"
+    android:id="@+id/name_ListView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        style="@style/text_20_ffffff_sdw"
+            android:paddingLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_alignBottom="@+id/id_ListView" />
+
+        <TextView
+    android:text="数量"
+    android:id="@+id/num_ListView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        style="@style/text_20_ffffff_sdw"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="15dp"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+    android:text="价格"
+    android:id="@+id/price_ListView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        style="@style/text_20_ffffff_sdw"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/num_ListView"
+            android:layout_marginLeft="30dp"
+            android:paddingLeft="10dp" />
+
+        <TextView
+    android:text="    备注"
+    android:id="@+id/remark_ListView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        style="@style/text_20_ffffff_sdw"
+            android:visibility="visible"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/price_ListView" />
+    </RelativeLayout>
+
+</LinearLayout>

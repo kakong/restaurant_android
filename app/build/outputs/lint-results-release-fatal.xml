@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="4" by="lint 24.4.0">
+
+    <issue
+        id="WrongViewCast"
+        severity="Fatal"
+        message="Unexpected cast to `LinearLayout`: layout tag was `RelativeLayout`"
+        category="Correctness"
+        priority="9"
+        summary="Mismatched view type"
+        explanation="Keeps track of the view types associated with ids and if it finds a usage of the id in the Java code it ensures that it is treated as the same type."
+        errorLine1="    ((LinearLayout) layout.findViewById(R.id.content))"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/java/com/zjk/util/CustomDialog.java"
+            line="229"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="WrongViewCast"
+        severity="Fatal"
+        message="Unexpected cast to `LinearLayout`: layout tag was `RelativeLayout`"
+        category="Correctness"
+        priority="9"
+        summary="Mismatched view type"
+        explanation="Keeps track of the view types associated with ids and if it finds a usage of the id in the Java code it ensures that it is treated as the same type."
+        errorLine1="    ((LinearLayout) layout.findViewById(R.id.content)).addView("
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/java/com/zjk/util/CustomDialog.java"
+            line="231"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnknownId"
+        severity="Fatal"
+        message="The id &quot;`tableLayout1`&quot; is not defined anywhere."
+        category="Correctness"
+        priority="8"
+        summary="Reference to an unknown id"
+        explanation="The `@+id/` syntax refers to an existing id, or creates a new one if it has not already been defined elsewhere. However, this means that if you have a typo in your reference, or if the referred view no longer exists, you do not get a warning since the id will be created on demand. This check catches errors where you have renamed an id without updating all of the references to it."
+        errorLine1="           android:layout_below=&quot;@+id/tableLayout1&quot;"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/layout/login_system.xml"
+            line="23"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="WrongManifestParent"
+        severity="Fatal"
+        message="The `&lt;provider>` element must be a direct child of the &lt;application> element"
+        category="Correctness"
+        priority="6"
+        summary="Wrong manifest parent"
+        explanation="The `&lt;uses-library>` element should be defined as a direct child of the `&lt;application>` tag, not the `&lt;manifest>` tag or an `&lt;activity>` tag. Similarly, a `&lt;uses-sdk>` tag much be declared at the root level, and so on. This check looks for incorrect declaration locations in the manifest, and complains if an element is found in the wrong place."
+        url="http://developer.android.com/guide/topics/manifest/manifest-intro.html"
+        urls="http://developer.android.com/guide/topics/manifest/manifest-intro.html"
+        errorLine1="    &lt;provider android:name=&quot;.apps.AppProvider&quot;"
+        errorLine2="    ^">
+        <location
+            file="/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/AndroidManifest.xml"
+            line="10"
+            column="5"/>
+    </issue>
+
+</issues>

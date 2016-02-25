@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/layout/login_system.xml",
+        "source": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/layout/login_system.xml"
+    },
+    {
+        "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/layout/order.xml",
+        "source": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/layout/order.xml"
+    },
+    {
+        "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/layout/dialog_layout.xml",
+        "source": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/layout/dialog_layout.xml"
+    },
+    {
+        "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/layout/check_table_view.xml",
+        "source": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/layout/check_table_view.xml"
+    },
+    {
+        "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/layout/addmeal_dialog_layout.xml",
+        "source": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/layout/addmeal_dialog_layout.xml"
+    },
+    {
+        "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/layout/check_table.xml",
+        "source": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/layout/check_table.xml"
+    },
+    {
+        "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/layout/orderdetail_listview2.xml",
+        "source": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/layout/orderdetail_listview2.xml"
+    },
+    {
+        "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/layout/spinner_lo.xml",
+        "source": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/layout/spinner_lo.xml"
+    },
+    {
+        "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/layout/orderdetail_listview.xml",
+        "source": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/layout/orderdetail_listview.xml"
+    }
+]

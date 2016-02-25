@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_bottom_div"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="480dp"
+        android:layout_weight="0.95"
+        android:orientation="horizontal" >
+
+        <GridView
+            android:id="@+id/check_table_gridview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/secondmainColor"
+            android:columnWidth="80dp"
+            android:gravity="center"
+            android:horizontalSpacing="10dp"
+            android:numColumns="auto_fit"
+            android:padding="15dp"
+            android:scrollbars="none"
+            android:verticalSpacing="10dp" >
+
+        </GridView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.06"
+        android:padding="5dp"
+        android:tag="3"
+        android:background="@drawable/main_bottom_div">
+
+        <Button
+            android:id="@+id/changetable"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:background="@drawable/btn_selector"
+            android:text="@string/changetable"
+            android:textColor="@color/fontwhiteColor" />
+
+        <Button
+            android:id="@+id/update_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:background="@drawable/btn_selector"
+            android:text="@string/update"
+            android:textColor="@color/fontwhiteColor"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/opentable_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:background="@drawable/btn_selector"
+            android:text="@string/opentable"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/quit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:background="@drawable/btn_selector"
+            android:text="@string/quit"
+            android:textColor="@color/fontwhiteColor" />
+
+    </LinearLayout>
+
+</LinearLayout>
