@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_login">
+    <!-- padding 内边距   layout_margin 外边距
+  		android:layout_alignParentTop 布局的位置是否处于顶部 -->
+  		
+  	<RelativeLayout
+  	    android:id="@+id/login_div"
+  	    android:layout_width="fill_parent"
+  	    android:layout_height="match_parent"
+  	    android:layout_margin="15dip"
+  	    android:padding="15dip" >
+  
+<LinearLayout
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        android:layout_below="@+id/tableLayout1"
+  	        android:orientation="vertical" >
+  	    <TableLayout
+  	        android:layout_width="fill_parent"
+  	        android:layout_height="wrap_content"
+  	        android:stretchColumns="1" >
+  	        <TableRow>
+  	            <TextView android:text="" />
+  	            <TextView android:text="" />
+  	        </TableRow>
+  	        <TableRow>
+  	            <TextView android:text="" />
+  	            <TextView android:text="" />
+  	        </TableRow>	       
+  	    </TableLayout>
+  	    
+  	    <LinearLayout
+  	        android:layout_width="match_parent"
+  	        android:layout_height="match_parent"
+  	        android:layout_below="@+id/tableLayout1"
+  	        android:orientation="vertical" >
+
+  	        <TableLayout
+  	            android:layout_width="fill_parent"
+  	            android:layout_height="wrap_content"
+  	            android:stretchColumns="1" >
+
+  	            <TableRow>
+  	            </TableRow>
+  	        </TableLayout>
+
+  	        <TableLayout
+  	            android:layout_width="fill_parent"
+  	            android:layout_height="wrap_content"
+  	            android:stretchColumns="1" >
+
+  	            <TableRow>
+
+  	                <TextView android:text="" />
+
+  	                <ImageView
+  	                    android:layout_width="120dp"
+  	                    android:layout_height="120dp"
+  	                    android:src="@drawable/touxiang" />
+
+  	            </TableRow>
+  	            
+  	        </TableLayout>  
+  	         <TableLayout
+  	        android:layout_width="fill_parent"
+  	        android:layout_height="fill_parent"
+  	        android:stretchColumns="1" >
+  	       <TableRow>
+  	            <TextView android:text="" />
+  	            <TextView android:text="" />
+  	        </TableRow>
+  	           <TableRow>
+  	            <TextView android:text="" />
+
+  	            <TextView android:text="" />
+
+  	        </TableRow>
+  	       
+  	    </TableLayout>
+  	        
+  	        <TableLayout
+  	            android:layout_width="fill_parent"
+  	            android:layout_height="wrap_content"
+  	            android:stretchColumns="1" >
+
+  	            <TableRow>
+  	                  </TableRow>
+  </TableLayout>
+  
+  	<RelativeLayout
+  	    android:id="@+id/login_relativelayout_div"
+  	    android:layout_width="fill_parent"
+  	    android:layout_height="110dp"
+  	    android:layout_margin="0dip"
+  	    android:background="@drawable/background_login_div"
+  	    android:padding="5dip" >
+  	                
+  	          	        <TableLayout
+  	          	            android:layout_width="fill_parent"
+  	          	            android:layout_height="fill_parent"
+  	          	            android:stretchColumns="1" >
+  	            
+  	                <EditText
+  	                    android:id="@+id/userEditText"
+  	                    android:layout_width="match_parent"
+  	                    android:layout_height="50dp"
+  	                    android:layout_marginLeft="15px"
+  	                    android:background="@drawable/shape"
+  	                    android:drawableLeft="@drawable/zhanghao"
+  	                    android:gravity="center|left"
+  	                    android:hint="  账号 "
+  	                    android:singleLine="true"
+  	                    android:textColor="@color/mainColor"
+  	                    android:textColorHint="@color/mainColor" />
+
+  	        <EditText
+  	            android:id="@+id/pwdEditText"
+  	            android:layout_width="fill_parent"
+  	            android:layout_height="50dp"
+  	            android:layout_marginLeft="15px"
+  	            android:background="@drawable/shape"
+  	            android:drawableLeft="@drawable/mima"
+  	            android:gravity="center|left"
+  	            android:hint=" 密码 "
+  	            android:password="true"
+  	            android:textAllCaps="true"
+  	            android:textColor="@color/mainColor"
+  	            android:textColorHint="@color/mainColor" />
+
+  	        <EditText
+  	            android:id="@+id/ipEditText"
+  	            android:layout_width="fill_parent"
+  	            android:layout_height="50dp"
+  	            android:layout_marginLeft="15px"
+  	            android:background="@drawable/shape"
+  	            android:drawableLeft="@drawable/dizhi"
+  	            android:gravity="center|left"
+  	            android:hint=" 服务器地址"
+  	            android:textColor="@color/mainColor"
+  	            android:textColorHint="@color/mainColor"
+  	            android:visibility="invisible" />
+
+  	        	    </TableLayout>
+  	         </RelativeLayout>
+  	          
+  	         <TableLayout
+  	        android:layout_width="fill_parent"
+  	        android:layout_height="fill_parent"
+  	        android:stretchColumns="1" >
+  	       <TableRow>
+  	            <TextView android:text="" />
+  	          
+  	        </TableRow>
+  	       
+  	    </TableLayout>
+
+  	        <Button
+  	            android:id="@+id/loginButton"
+  	            android:layout_width="match_parent"
+  	            android:layout_height="48dp"
+  	            android:background="@drawable/btn_selector"
+  	            android:gravity="center"
+  	            android:text="登录"
+  	            android:textColor="#FFFFFF"
+  	            android:textSize="60px" />
+
+  	        <Button
+  	            android:id="@+id/cancelButton"
+  	            android:layout_width="fill_parent"
+  	            android:layout_height="46dp"
+  	            android:background="@drawable/btn_selector"
+  	            android:text="退出"
+  	            android:textColor="#FFFFFF"
+  	            android:textSize="60px" />
+  	              </LinearLayout>
+  </LinearLayout>
+
+</RelativeLayout>
+  	          
+</LinearLayout>
