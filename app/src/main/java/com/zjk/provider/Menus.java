@@ -11,7 +11,7 @@ import android.provider.BaseColumns;
  */
 public final class Menus  implements BaseColumns{
 		// 授权常量
-	    public static final String AUTHORITY = "com.zjkAndroid app for recording calls to .m4a using AAC Audio Codec.provider.MENUS";
+	    public static final String AUTHORITY = "com.zjk.provider.MENUS";
         // 访问uri
         public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY + "/menu1");
         // 默认排序

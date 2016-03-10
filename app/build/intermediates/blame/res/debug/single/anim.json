@@ -1,7 +1,15 @@
 [
     {
+        "merged": "/Users/zhongjiakang/restaurant_android/app/build/intermediates/res/merged/debug/anim/cycle.xml",
+        "source": "/Users/zhongjiakang/restaurant_android/app/src/main/res/anim/cycle.xml"
+    },
+    {
         "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/anim/myanim.xml",
         "source": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/anim/myanim.xml"
+    },
+    {
+        "merged": "/Users/zhongjiakang/restaurant_android/app/build/intermediates/res/merged/debug/anim/myanim.xml",
+        "source": "/Users/zhongjiakang/restaurant_android/app/src/main/res/anim/myanim.xml"
     },
     {
         "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/anim/cycle.xml",

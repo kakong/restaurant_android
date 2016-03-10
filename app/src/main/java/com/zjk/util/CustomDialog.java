@@ -9,6 +9,7 @@ import android.view.ViewGroup.LayoutParams;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.zjk.re.R;
@@ -34,8 +35,9 @@ public class CustomDialog extends Dialog {
 		private String EditText1,EditText2;
 		private String text1,text2;
 		private EditText editText1,editText2;
-		private int et1_visibility_state,et2_visibility_state;
+		private int et1_visibility_state,playdialog_state;
 		private TextView messageTextView;
+		private RelativeLayout playdialog;
 		private View contentView;
 		private int numberType;
 		private DialogInterface.OnClickListener positiveButtonClickListener;
@@ -60,10 +62,7 @@ public class CustomDialog extends Dialog {
 			this.et1_visibility_state = state;
 			return this;
 		}
-		public Builder setEt2Visibility(int state){
-			this.et2_visibility_state = state;
-			return this;
-		}
+
 		public Builder setMessage(int message) {
 			this.message = (String) context.getText(message);
 			return this;
@@ -120,6 +119,10 @@ public class CustomDialog extends Dialog {
 			this.numberType = type;
 			return this;
 		}
+		public Builder setdialogvisibility(int i){
+			this.playdialog_state = i;
+			return this;
+		}
 
 		public Builder setPositiveButton(int positiveButtonText,
 				DialogInterface.OnClickListener listener) {
@@ -174,7 +177,14 @@ public class CustomDialog extends Dialog {
                editText2.setInputType(numberType);
 			   editText2.setVisibility(View.INVISIBLE);
 			   messageTextView = (TextView)layout.findViewById(R.id.message);
-			   
+			   playdialog = (RelativeLayout)layout.findViewById(R.id.playdialog);
+			   if(playdialog_state == 1){
+				   playdialog.setVisibility(View.VISIBLE);
+			   }else if(playdialog_state==2){
+				   playdialog.setVisibility(View.INVISIBLE);
+			   }else{
+				   playdialog.setVisibility(View.GONE);
+			   }
 			if(et1_visibility_state == 1){
 				editText1.setVisibility(View.VISIBLE);
 				editText2.setVisibility(View.VISIBLE);

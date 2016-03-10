@@ -382,7 +382,7 @@ public class MainActivity extends Activity{
 			Uri uri1 = Menus.CONTENT_URI;
 			// 删除本地SQLite数据库中菜谱表中的数据
 			cr.delete(uri1, null, null);
-
+			nl.getLength();
 			// 循环将数据保存到菜谱表
 			for (int i = 0; i < nl.getLength(); i++) {
 				// 实例化ContentValues

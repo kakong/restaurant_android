@@ -1,19 +1,107 @@
 [
     {
-        "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/dialog_bottom_bg.xml",
-        "source": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/drawable-hdpi/dialog_bottom_bg.xml"
+        "merged": "/Users/zhongjiakang/restaurant_android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bg_btn_pressed.xml",
+        "source": "/Users/zhongjiakang/restaurant_android/app/src/main/res/drawable-hdpi/bg_btn_pressed.xml"
+    },
+    {
+        "merged": "/Users/zhongjiakang/restaurant_android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/touxiang.png",
+        "source": "/Users/zhongjiakang/restaurant_android/app/src/main/res/drawable-hdpi/touxiang.png"
+    },
+    {
+        "merged": "/Users/zhongjiakang/restaurant_android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/weixin.PNG",
+        "source": "/Users/zhongjiakang/restaurant_android/app/src/main/res/drawable-hdpi/weixin.PNG"
     },
     {
         "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/btn_selector.xml",
         "source": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/drawable-hdpi/btn_selector.xml"
     },
     {
-        "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bg_btn_pressed.xml",
-        "source": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/drawable-hdpi/bg_btn_pressed.xml"
+        "merged": "/Users/zhongjiakang/restaurant_android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/icon.png",
+        "source": "/Users/zhongjiakang/restaurant_android/app/src/main/res/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "/Users/zhongjiakang/restaurant_android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/mima.png",
+        "source": "/Users/zhongjiakang/restaurant_android/app/src/main/res/drawable-hdpi/mima.png"
+    },
+    {
+        "merged": "/Users/zhongjiakang/restaurant_android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/dizhi.png",
+        "source": "/Users/zhongjiakang/restaurant_android/app/src/main/res/drawable-hdpi/dizhi.png"
     },
     {
         "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/table_icon2.png",
         "source": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/drawable-hdpi/table_icon2.png"
+    },
+    {
+        "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/background_login.xml",
+        "source": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/drawable-hdpi/background_login.xml"
+    },
+    {
+        "merged": "/Users/zhongjiakang/restaurant_android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/table_icon2.png",
+        "source": "/Users/zhongjiakang/restaurant_android/app/src/main/res/drawable-hdpi/table_icon2.png"
+    },
+    {
+        "merged": "/Users/zhongjiakang/restaurant_android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/dialog_div.xml",
+        "source": "/Users/zhongjiakang/restaurant_android/app/src/main/res/drawable-hdpi/dialog_div.xml"
+    },
+    {
+        "merged": "/Users/zhongjiakang/restaurant_android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/background_login.xml",
+        "source": "/Users/zhongjiakang/restaurant_android/app/src/main/res/drawable-hdpi/background_login.xml"
+    },
+    {
+        "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bg_btn.xml",
+        "source": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/drawable-hdpi/bg_btn.xml"
+    },
+    {
+        "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/table_icon1.png",
+        "source": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/drawable-hdpi/table_icon1.png"
+    },
+    {
+        "merged": "/Users/zhongjiakang/restaurant_android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/btn_selector.xml",
+        "source": "/Users/zhongjiakang/restaurant_android/app/src/main/res/drawable-hdpi/btn_selector.xml"
+    },
+    {
+        "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/background_login_div.xml",
+        "source": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/drawable-hdpi/background_login_div.xml"
+    },
+    {
+        "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/shape.xml",
+        "source": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/drawable-hdpi/shape.xml"
+    },
+    {
+        "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/background_main_btn.xml",
+        "source": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/drawable-hdpi/background_main_btn.xml"
+    },
+    {
+        "merged": "/Users/zhongjiakang/restaurant_android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/shape.xml",
+        "source": "/Users/zhongjiakang/restaurant_android/app/src/main/res/drawable-hdpi/shape.xml"
+    },
+    {
+        "merged": "/Users/zhongjiakang/restaurant_android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/dialog_bottom_bg.xml",
+        "source": "/Users/zhongjiakang/restaurant_android/app/src/main/res/drawable-hdpi/dialog_bottom_bg.xml"
+    },
+    {
+        "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/dialog_bottom_bg.xml",
+        "source": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/drawable-hdpi/dialog_bottom_bg.xml"
+    },
+    {
+        "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bg_btn_pressed.xml",
+        "source": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/drawable-hdpi/bg_btn_pressed.xml"
+    },
+    {
+        "merged": "/Users/zhongjiakang/restaurant_android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bg_btn.xml",
+        "source": "/Users/zhongjiakang/restaurant_android/app/src/main/res/drawable-hdpi/bg_btn.xml"
+    },
+    {
+        "merged": "/Users/zhongjiakang/restaurant_android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/zhanghao.png",
+        "source": "/Users/zhongjiakang/restaurant_android/app/src/main/res/drawable-hdpi/zhanghao.png"
+    },
+    {
+        "merged": "/Users/zhongjiakang/restaurant_android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/background_login_div.xml",
+        "source": "/Users/zhongjiakang/restaurant_android/app/src/main/res/drawable-hdpi/background_login_div.xml"
+    },
+    {
+        "merged": "/Users/zhongjiakang/restaurant_android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/table_icon1.png",
+        "source": "/Users/zhongjiakang/restaurant_android/app/src/main/res/drawable-hdpi/table_icon1.png"
     },
     {
         "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/mima.png",
@@ -32,32 +120,12 @@
         "source": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/drawable-hdpi/dialog_div.xml"
     },
     {
-        "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/background_login.xml",
-        "source": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/drawable-hdpi/background_login.xml"
+        "merged": "/Users/zhongjiakang/restaurant_android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/background_main_btn.xml",
+        "source": "/Users/zhongjiakang/restaurant_android/app/src/main/res/drawable-hdpi/background_main_btn.xml"
     },
     {
         "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/dizhi.png",
         "source": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/drawable-hdpi/dizhi.png"
-    },
-    {
-        "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bg_btn.xml",
-        "source": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/drawable-hdpi/bg_btn.xml"
-    },
-    {
-        "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/table_icon1.png",
-        "source": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/drawable-hdpi/table_icon1.png"
-    },
-    {
-        "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/background_login_div.xml",
-        "source": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/drawable-hdpi/background_login_div.xml"
-    },
-    {
-        "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/shape.xml",
-        "source": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/drawable-hdpi/shape.xml"
-    },
-    {
-        "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/background_main_btn.xml",
-        "source": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/drawable-hdpi/background_main_btn.xml"
     },
     {
         "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/touxiang.png",
@@ -66,5 +134,13 @@
     {
         "merged": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/icon.png",
         "source": "/Users/zhongjiakang/Desktop/16/16.2/KakongRestaurant_Android/app/src/main/res/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "/Users/zhongjiakang/restaurant_android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/zhifubo.JPG",
+        "source": "/Users/zhongjiakang/restaurant_android/app/src/main/res/drawable-hdpi/zhifubo.JPG"
+    },
+    {
+        "merged": "/Users/zhongjiakang/restaurant_android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/main_bottom_div.xml",
+        "source": "/Users/zhongjiakang/restaurant_android/app/src/main/res/drawable-hdpi/main_bottom_div.xml"
     }
 ]

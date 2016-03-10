@@ -174,6 +174,7 @@ public class OrderActivity extends Activity {
 						//other-invisible,1-visible,2-gone
 						.setEt1Visibility(0)
 						.setMessage("总共消费："+orderDetailTotal+"元")
+						.setdialogvisibility(1)
 						.setPositiveButton("确定", new DialogInterface.OnClickListener() {
 							public void onClick(DialogInterface dialog, int id) {
 								String url = HttpUtil.BASE_URL+"servlet/PayMoneyServlet?id="+orderId;
@@ -182,6 +183,7 @@ public class OrderActivity extends Activity {
                                 //弹出toast
 								Toast.makeText(OrderActivity.this, "已结算", Toast.LENGTH_LONG).show();
 								dialog.cancel();
+								//builder.setdialogvisibility(0);
 								finish();
 							}
 						})
@@ -197,23 +199,18 @@ public class OrderActivity extends Activity {
 	//添菜方法
 	private void addMeal() {
 		// 获得AlertDialog.Builder实例
-		final AddMealDialog.Builder builder = new AddMealDialog.Builder(this);
-		builder
+		final AddMealDialog.Builder addbuilder = new AddMealDialog.Builder(this);
+		addbuilder
 				// 设置标题
 				.setTitle("请点菜：")
-						// 设置自定义视图
-//				.setView(v)
-//                .setAdapter(adapter2)
+
 						// 设置确定按钮
 				.setPositiveButton("确定", new DialogInterface.OnClickListener() {
 					// 确定按钮事件
 					public void onClick(DialogInterface dialog, int id) {
 
-						LinearLayout v1 = builder.getSelectedItemPosition();
-//						// 获得ListView中的自定义视图LinearLayout
-//						LinearLayout v1 = (LinearLayout) menuSpinner
-//								.getSelectedView();
-//
+						LinearLayout v1 = addbuilder.getSelectedItemPosition();
+
 						// 获得TextView，菜编号
 						TextView id_tv = (TextView) v1
 								.findViewById(R.id.spinner_id);
@@ -223,33 +220,17 @@ public class OrderActivity extends Activity {
 						// 获得TextView，菜名称
 						TextView name_tv = (TextView) v1
 								.findViewById(R.id.spinner_name);
-//						// 获得EditText，菜数量
-//						EditText num_et = (EditText) v
-//								.findViewById(R.id.numEditText);
-//						// 获得EditText，菜备注
-//						EditText remark_et = (EditText) v
-//								.findViewById(R.id.add_remarkEditText);
-//						// 菜编号值
+
+ 						// 菜编号值
 						String idStr = id_tv.getText().toString();
 						// 菜价格值
 						String priceStr = price_tv.getText().toString();
 						// 菜名称值
 						String nameStr = name_tv.getText().toString();
-//						// 菜数量值
-//						String numStr = num_et.getText().toString();
-//						// 菜备注值
-//						String remarkStr = remark_et.getText().toString();
-						//builder.setgetSelectedItemPosition(i);
-						// 菜编号值
-//						String idStr = builder.getSprinnerId();
-//						// 菜价格值
-//						String priceStr = builder.getSprinnerPrice();
-//						// 菜名称值
-//						String nameStr = builder.getSprinnerName();
-//						// 菜数量值
-						String numStr = builder.getEditText1();
+    					// 菜数量值
+						String numStr = addbuilder.getEditText1();
 						// 菜备注值
-						String remarkStr = builder.getEditText2();
+						String remarkStr = addbuilder.getEditText2();
 
 						// 封装到Map中
 						map = new HashMap();
@@ -285,7 +266,7 @@ public class OrderActivity extends Activity {
 						dialog.dismiss();
 					}
 			});
-		builder.create().show();
+		addbuilder.create().show();
 	}
 
 	// 下单监听器

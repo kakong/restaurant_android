@@ -31,7 +31,7 @@
         <activity
             android:name=".LoginActivity"
             android:label="@string/app_name"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            android:theme="@android:style/Theme.Light.NoTitleBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -39,9 +39,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+            android:theme="@android:style/Theme.Light.NoTitleBar"/>
         <activity android:name=".OrderActivity"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+            android:theme="@android:style/Theme.Light.NoTitleBar"/>
 
         <provider android:name="com.zjk.provider.TableProvider" android:authorities="com.zjk.provider.TABLES"/>
         <provider android:name="com.zjk.provider.MenuProvider" android:authorities="com.zjk.provider.MENUS"/>
