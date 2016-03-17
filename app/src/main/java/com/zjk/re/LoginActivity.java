@@ -12,6 +12,7 @@ import android.view.ViewGroup.LayoutParams;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RelativeLayout;
 
@@ -24,21 +25,15 @@ public class LoginActivity extends Activity {
 	private Button loginBtn;
  	private String  ip;
 	// 声明用户名、密码输入框
-	private EditText userEditText,pwdEditText,ipEditText;
+	private EditText userEditText,pswEditText,ipEditText;
 	private Animation anim;
 	private RelativeLayout login_rLayout;
+	private CheckBox rememberPassword;
+	private SharedPreferences spf;
+	private String userNameValue,passwordVale;
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-//		JPushInterface.setDebugMode(true);
-//		JPushInterface.init(this);
-//		Context context = getApplicationContext();
-//		XGPushManager.registerPush(context);
-//
-// //2.36（不包括）之前的版本需要调用以下2行代码
-//		Intent service = new Intent(context, XGPushService.class);
-//		context.startService(service);
-
 		// 设置标题
 		setTitle("餐厅");
 		// sdk9以上要在方法中访问服务器需要加上这个方法
@@ -54,8 +49,22 @@ public class LoginActivity extends Activity {
 		cancelBtn = (Button)findViewById(R.id.cancelButton);
 		loginBtn = (Button)findViewById(R.id.loginButton);
 		userEditText = (EditText)findViewById(R.id.userEditText);
-		pwdEditText = (EditText)findViewById(R.id.pwdEditText);
+		pswEditText = (EditText)findViewById(R.id.pwdEditText);
 		ipEditText = (EditText)findViewById(R.id.ipEditText);
+		rememberPassword  = (CheckBox)findViewById(R.id.rememberPsw);
+
+		//保存用户名和密码
+		spf = getSharedPreferences("userInfo",0);
+		String name = spf.getString("USER_NAME","");
+		String psw = spf.getString("PASSWORD","");
+		boolean choseRememberPassword = spf.getBoolean("rememberPassword", false);
+		if(choseRememberPassword){
+			userEditText.setText(name);
+			pswEditText.setText(psw);
+			rememberPassword.setChecked(true);
+		}
+
+
 		//设置动画layout
 	    anim = AnimationUtils.loadAnimation(LoginActivity.this,R.anim.myanim);
 	    //实例化登录界面
@@ -76,14 +85,10 @@ public class LoginActivity extends Activity {
 				if(ipIsChange()){
 			  //访问后台验证用户和密码
 					if(login()==1){
-//						if(true){
-//							if(true){
-//								if(true){
-						//Intent intent = new Intent(LoginActivity.this,MainActivity.class);
 						Intent intent = new Intent(LoginActivity.this,MainActivity.class);
 						startActivity(intent);
+						finish();
 					}else if(login() == 0){
-					   // showAlertDialog sad = new showAlertDialog("用户名称或者密码错误，请重新输入");
 						showAlertDialog("用户名称或者密码错误，请重新输入！");
 					}else{
 						showAlertDialogNetError("网络异常！请重新输入服务器地址");
@@ -107,11 +112,24 @@ public class LoginActivity extends Activity {
 	// 登录方法
 	private int login(){
 		// 获得用户名称
-		String username = userEditText.getText().toString();
+		userNameValue = userEditText.getText().toString();
 		// 获得密码
-		String pwd = pwdEditText.getText().toString();
+		passwordVale = pswEditText.getText().toString();
+
+		SharedPreferences.Editor editor = spf.edit();
+		//保存用户名和密码
+		editor.putString("USER_NAME", userNameValue);
+		editor.putString("PASSWORD", passwordVale);
+
+		//是否记住密码
+		if (rememberPassword.isChecked()) {
+			editor.putBoolean("rememberPassword", true);
+		} else {
+			editor.putBoolean("rememberPassword", false);
+		}
+		editor.commit();
 		// 获得登录结果
-		String result=query(username,pwd);
+		String result=query(userNameValue,passwordVale);
 		//判断获得的结果
 		//0表示账号密码不对，1表示登录成功，2表示网络错误，
 		if(result!=null&&result.equals("0")){
@@ -158,10 +176,10 @@ public class LoginActivity extends Activity {
 			userEditText.startAnimation(anim);
 			return false;
 		}
-		String pwd = pwdEditText.getText().toString();
+		String pwd = pswEditText.getText().toString();
 		if(pwd.equals("")){
 			//如果输入框空会振动提示
-			pwdEditText.startAnimation(anim);
+			pswEditText.startAnimation(anim);
 			return false;
 		}
 		return true;

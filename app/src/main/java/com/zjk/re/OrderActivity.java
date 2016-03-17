@@ -303,7 +303,8 @@ public class OrderActivity extends Activity {
 				request.setEntity(entity1);
 				// 获得返回结果
 				String result= HttpUtil.queryStringForPost(request);
-
+				Toast.
+						makeText(OrderActivity.this, "下单成功", Toast.LENGTH_LONG).show();
 			}
 		}
 	};

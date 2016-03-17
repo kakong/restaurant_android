@@ -154,31 +154,48 @@
   	        android:layout_height="fill_parent"
   	        android:stretchColumns="1" >
   	       <TableRow>
-  	            <TextView android:text="" />
-  	          
-  	        </TableRow>
-  	       
-  	    </TableLayout>
 
-  	        <Button
-  	            android:id="@+id/loginButton"
-  	            android:layout_width="match_parent"
-  	            android:layout_height="48dp"
-  	            android:background="@drawable/btn_selector"
-  	            android:gravity="center"
-  	            android:text="登录"
-  	            android:textColor="#FFFFFF"
-  	            android:textSize="60px" />
+		   </TableRow>
 
-  	        <Button
-  	            android:id="@+id/cancelButton"
-  	            android:layout_width="fill_parent"
-  	            android:layout_height="46dp"
-  	            android:background="@drawable/btn_selector"
-  	            android:text="退出"
-  	            android:textColor="#FFFFFF"
-  	            android:textSize="60px" />
-  	              </LinearLayout>
+				 <CheckBox
+					 android:id="@+id/rememberPsw"
+					 android:layout_width="wrap_content"
+					 android:layout_height="wrap_content"
+					 android:text="记住密码"
+					 android:layout_marginRight="20dp"
+					 android:checked="false"
+					 android:textColor="@color/mainColor" />
+
+			 </TableLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+
+				<Button
+                      android:id="@+id/loginButton"
+                      android:layout_width="match_parent"
+                      android:layout_height="50dp"
+                      android:background="@drawable/btn_selector"
+                      android:gravity="center"
+                      android:text="登录"
+                      android:textColor="#FFFFFF"
+                      android:textSize="60px"
+					android:layout_weight="0.5" />
+
+				<Button
+                      android:id="@+id/cancelButton"
+                      android:layout_width="fill_parent"
+                      android:layout_height="50dp"
+                      android:background="@drawable/btn_selector"
+                      android:text="退出"
+                      android:textColor="#FFFFFF"
+                      android:textSize="60px"
+					android:layout_weight="0.5" />
+			</LinearLayout>
+
+		</LinearLayout>
   </LinearLayout>
 
 </RelativeLayout>

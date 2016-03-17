@@ -11,6 +11,7 @@ public class App extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        //实例化极光推送
         JPushInterface.setDebugMode(true);
         JPushInterface.init(this);
     }
