@@ -132,7 +132,7 @@ public class OrderActivity extends Activity {
 		}
 
 		@Override
-		public View getView(int position, View convertView, ViewGroup parent) {
+		public View getView(final int position, View convertView, ViewGroup parent) {
 			//LayoutInflater inflater = LayoutInflater.from(OrderActivity.this);
 			final ViewHolder holder;
 			View v = null;
@@ -168,17 +168,24 @@ public class OrderActivity extends Activity {
 			holder.state.setOnClickListener(new OnClickListener() {
 				@Override
 				public void onClick(View v) {
-					int i;
+					String sta = orderlist.get(position).get("state").toString() ;
+//                    String queryString = "orderId=" + orderlist.get(position).get("oid").toString() + "&state=" + sta;
 
 					if(holder.state.isChecked()){
-					//	holder.state.seton
-						Toast.makeText(getApplicationContext(), "1",
+                        String queryString = "orderId=" + orderlist.get(position).get("oid").toString() + "&state=" + 1;
+                        String url = HttpUtil.BASE_URL + "servlet/ChangeStateServlet?" + queryString;
+                        String result = HttpUtil.queryStringForPost(url);
+                        //	holder.state.seton
+						Toast.makeText(getApplicationContext(), result,
 								Toast.LENGTH_SHORT).show();
-						i=1;
+
 					}else{
-						Toast.makeText(getApplicationContext(), "0",
+                        String queryString = "orderId=" + orderlist.get(position).get("oid").toString() + "&state=" + 0;
+                        String url = HttpUtil.BASE_URL + "servlet/ChangeStateServlet?" + queryString;
+                        String result = HttpUtil.queryStringForPost(url);
+                        Toast.makeText(getApplicationContext(),result,
 								Toast.LENGTH_SHORT).show();
-						i = 0;
+
 					}
 				}
 			});
@@ -297,7 +304,7 @@ public class OrderActivity extends Activity {
 //					od.setRemark(remark);
 //					od.setState(state);
 
-					//map.put("oid",oid);
+					map.put("oid",oid);
 					map.put("name", name);
 					map.put("num", num);
 					map.put("price", price);
@@ -312,6 +319,7 @@ public class OrderActivity extends Activity {
 			}
 		}else {
 			map = new HashMap<String, Object>();
+			map.put("oid","");
 			map.put("name","");
 			map.put("num", "");
 			map.put("price", "");

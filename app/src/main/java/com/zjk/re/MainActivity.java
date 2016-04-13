@@ -216,17 +216,21 @@ public class MainActivity extends Activity{
 	private boolean isChangeTable(String OrderId,String changeToTableId) {
 		boolean res=false;
 		//订单号和更换的桌号不能为空
-		if(!OrderId.equals("")&&changeToTableId.equals("")){
+		boolean m = OrderId.equals("");
+		boolean n  = changeToTableId.equals("");
+		if(!m&&!n){
 			//字符格式转换
 			int orderid=Integer.parseInt(OrderId);
 			int tableid = Integer.parseInt(changeToTableId);
 			//判断能否换桌
 		for (int i = 0; i < list.size(); i++) {
 			CheckTable ct = (CheckTable) list.get(i);
-			if (orderid == ct.getOrderId() && ct.getFlag() == 0 && orderid != 0) {
+			if (orderid == ct.getOrderId() && ct.getFlag() == 1 && orderid != 0) {
 				for (int j = 0; j < list.size(); j++) {
 					CheckTable ct1 = (CheckTable) list.get(j);
-					if (ct.getFlag() == 0 && tableid == ct1.getNum()) {
+//					int i1 = ct1.getFlag();
+//					int i2 = ct1.getNum();
+					if (ct1.getFlag()== 0 && tableid == ct1.getNum()) {
 						res = true;
 						break;
 					}
