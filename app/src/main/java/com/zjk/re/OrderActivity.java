@@ -35,7 +35,7 @@ import java.util.List;
 import java.util.Map;
 
 public class OrderActivity extends Activity {
-
+    private Context mContext;
 	// 结算、点菜和下单按钮
 	private Button payBtn, addfoodBtn, submitOrder;
 	// 点菜列表
@@ -65,10 +65,10 @@ public class OrderActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+        mContext = this.getBaseContext();
 		// 为Activity设置界面布局
 		setContentView(R.layout.order);
         Intent getintent = getIntent();
-		// int tableId = getintent.getIntExtra("tableId",-1);
 		 orderId = ""+getintent.getIntExtra("orderId",-1);
 		// 实例化下单按钮
 		submitOrder = (Button) findViewById(R.id.submitorder_btn);
@@ -88,12 +88,14 @@ public class OrderActivity extends Activity {
 		orderdetail_lv = (ListView)findViewById(R.id.orderDetailListView);
 		//声明adapter
         orderlist = getOrderDetailList();
+        //drawhadList();
+        drawList();
     //    getOrderDetailList();
-		SimpleAdapter adapter = new SimpleAdapter(this,odlist,R.layout.orderdetail_listview,
-				new String[]{"name","num","price","remark","state"},
-				new int[]{R.id.name_list,R.id.num_list,R.id.price_list,R.id.remark_list,R.id.state_list});
+//		SimpleAdapter adapter = new SimpleAdapter(this,odlist,R.layout.orderdetail_listview,
+//				new String[]{"name","num","price","remark","state"},
+//				new int[]{R.id.name_list,R.id.num_list,R.id.price_list,R.id.remark_list,R.id.state_list});
 		//设置菜单adapter
-		orderdetail_lv.setAdapter(new ChoiceAdapter(this));
+//		orderdetail_lv.setAdapter(new ChoiceAdapter(this));
 //		orderdetail_lv.setAdapter(adapter);
 //		CheckBox cb = (CheckBox)orderdetail_lv.findViewById(R.id.state_list);
 
@@ -102,13 +104,21 @@ public class OrderActivity extends Activity {
 //        orderdetail_lv.findViewById(R.id.state_list);
 
 		//设置顶部信息数据
-		orderDetailNumber_tv.setText(orderDetailNumber_tv.getText().toString() + "" + orderDetailNumber + "个");
-		orderDetailTotal_tv.setText(orderDetailTotal_tv.getText().toString() + "" + orderDetailTotal + "元");
+		orderDetailNumber_tv.setText(orderDetailNumber_tv.getText().toString() + "" + orderDetailNumber/3 + "个");
+		orderDetailTotal_tv.setText(orderDetailTotal_tv.getText().toString() + "" + orderDetailTotal/3 + "元");
 		// 实例化ListView
 		choice_lv = (ListView) findViewById(R.id.orderDetailListView01);
 		// 为点菜列表ListView绑定数据
 		setMenusAdapter();
 	}
+    public  void drawhadList(){
+
+        choice_lv.setAdapter(new HadChoiceAdapter(this));
+    }
+    public void drawList(){
+
+        orderdetail_lv.setAdapter(new ChoiceAdapter(this));
+    }
 	//重写已点菜单接口
 	public class ChoiceAdapter extends BaseAdapter{
 		private Context mContext;
@@ -142,7 +152,6 @@ public class OrderActivity extends Activity {
 				// // 实例化图片视图
 				convertView = mInflater.inflate(R.layout.orderdetail_listview,null);
 				// 设置图片视图属性
-				//v.setPadding(9, 9, 9, 9);
 			}
 			holder = new ViewHolder();
 
@@ -196,6 +205,69 @@ public class OrderActivity extends Activity {
 		public TextView name,num,price,remark;
 		public CheckBox state;
 	}
+
+    //重写已选菜单接口
+    public class HadChoiceAdapter extends BaseAdapter{
+        private Context mContext;
+        private LayoutInflater mInflater;
+        public HadChoiceAdapter(Context c){
+            this.mInflater  = LayoutInflater.from(c);
+        }
+        @Override
+        public int getCount() {
+            return data.size();
+        }
+
+        @Override
+        public Object getItem(int position) {
+            return null;
+        }
+
+        @Override
+        public long getItemId(int position) {
+            return 0;
+        }
+
+        @Override
+        public View getView(final int position, View convertView, ViewGroup parent) {
+            //LayoutInflater inflater = LayoutInflater.from(OrderActivity.this);
+            final View2Holder holder;
+            View v = null;
+
+
+            if (convertView == null) {
+                // // 实例化图片视图
+                convertView = mInflater.inflate(R.layout.orderdetail_listview2,null);
+                // 设置图片视图属性
+            }
+            holder = new View2Holder();
+
+            holder.name = (TextView)convertView.findViewById(R.id.name_ListView);
+            holder.num = (TextView)convertView.findViewById(R.id.num_ListView);
+            holder.price = (TextView)convertView.findViewById(R.id.price_ListView);
+            holder.remark = (TextView)convertView.findViewById(R.id.remark_ListView);
+            holder.deletelist = (Button)convertView.findViewById(R.id.delete_ListView);
+
+            // orderlist.get(position);
+            Map map = (Map)data.get(position);
+            holder.name.setText(map.get("name").toString());
+            holder.num.setText(map.get("num").toString());
+            holder.price.setText(map.get("price").toString());
+            holder.remark.setText(map.get("remark").toString());
+            holder.deletelist.setOnClickListener(new OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    data.remove(position);
+                    drawhadList();
+                }
+            });
+            return convertView;
+        }
+    }
+    public final class View2Holder{
+        public TextView name,num,price,remark;
+        public Button deletelist;
+    }
 	// 为点菜列表ListView绑定数据
 	private void setMenusAdapter(){
 		// 显示点菜项的TextView引用
@@ -207,67 +279,9 @@ public class OrderActivity extends Activity {
 		// 实例化点菜列表ListView Adapter
 		sa = new SimpleAdapter(this, data, R.layout.orderdetail_listview2, from, to);
 		// 为ListView绑定数据
-		choice_lv.setAdapter(sa);
+		choice_lv.setAdapter(new HadChoiceAdapter(this));
 	}
 
-//	private void getOrderDetailList(){
-//		// 访问服务器url
-//		String url = HttpUtil.BASE_URL+"servlet/PayServlet?id="+orderId;
-//		// 查询返回结果
-//		String result = HttpUtil.queryStringForPost(url);
-//		// 拆分字符串，转换成对象，添加到列表
-//		List<Map<String, Object>> list = new ArrayList<Map<String, Object>>();
-//		Map<String, Object> map = new HashMap<String, Object>();
-//		if (!result.equals("")) {
-//			String[] strs = result.split(";");
-//			for (int i = 0; i < strs.length; i++) {
-//				map = new HashMap<String, Object>();
-//				int idx = strs[i].indexOf("[");
-//				int idx1 = strs[i].indexOf(",");
-//				int idx2 = strs[i].indexOf(".");
-//				int idx3 = strs[i].indexOf("'");
-//				int idx4 = strs[i].indexOf("*");
-//				int idx5 = strs[i].indexOf("]");
-//				int j = strs[i].length();
-//				int oid = Integer.parseInt(strs[i].substring(0, idx));
-//				String name = strs[i].substring(idx + 1, idx1);
-//				int price = Integer.parseInt(strs[i].substring(idx1 + 1, idx2));
-//				int num = Integer.parseInt(strs[i].substring(idx2 + 1, idx3));
-//				int total = Integer.parseInt(strs[i].substring(idx3 + 1, idx4));
-//				String remark = strs[i].substring(idx4 + 1, idx5);
-//				int state = Integer.parseInt(strs[i].substring(idx5 + 1));
-//				if (state != -1) {
-//					OrderDetail od = new OrderDetail();
-//					od.setOid(oid);
-//					od.setName(name);
-//					od.setPrice(price);
-//					od.setNum(num);
-//					od.setTotal(total);
-//					od.setRemark(remark);
-//					od.setState(state);
-//
-//					//map.put("oid",oid);
-////				map.put("name", name);
-////				map.put("num", num);
-////				map.put("price", price);
-////				map.put("remark", remark);
-////				map.put("state",state);
-//					odlist.add(od);
-////				list.add(map);
-//					orderDetailNumber++;
-//					orderDetailTotal += total;
-//				}
-//			}
-//		}else {
-//			map = new HashMap<String, Object>();
-//			map.put("name","");
-//			map.put("num", "");
-//			map.put("price", "");
-//			map.put("remark", "");
-//			map.put("state"," ");
-//			odlist.add(map);
-//		}
-//	}
 	private ArrayList<Map<String, Object>> getOrderDetailList(){
 		// 访问服务器url
 		String url = HttpUtil.BASE_URL+"servlet/PayServlet?id="+orderId;
@@ -295,23 +309,12 @@ public class OrderActivity extends Activity {
 				String remark = strs[i].substring(idx4 + 1, idx5);
 				int state = Integer.parseInt(strs[i].substring(idx5 + 1));
 				if (state != -1) {
-//					OrderDetail od = new OrderDetail();
-//					od.setOid(oid);
-//					od.setName(name);
-//					od.setPrice(price);
-//					od.setNum(num);
-//					od.setTotal(total);
-//					od.setRemark(remark);
-//					od.setState(state);
-
 					map.put("oid",oid);
 					map.put("name", name);
 					map.put("num", num);
 					map.put("price", price);
 					map.put("remark", remark);
 					map.put("state", state);
-
-					//odlist.add(od);
 					list.add(map);
 					orderDetailNumber++;
 					orderDetailTotal += total;
@@ -338,6 +341,15 @@ public class OrderActivity extends Activity {
 			addMeal();
 		}
 	};
+
+    //取消已点
+    private OnClickListener deleteListener = new OnClickListener() {
+        @Override
+        public void onClick(View v) {
+
+        }
+    };
+
 	//结算方法
 	private OnClickListener payListener = new OnClickListener() {
 			@Override
@@ -346,7 +358,7 @@ public class OrderActivity extends Activity {
 				builder.setTitle("结算")
 						//other-invisible,1-visible,2-gone
 						.setEt1Visibility(0)
-						.setMessage("总共消费："+orderDetailTotal+"元")
+						.setMessage("总共消费："+orderDetailTotal/30+"元")
 						.setdialogvisibility(1)
 						.setPositiveButton("确定", new DialogInterface.OnClickListener() {
 							public void onClick(DialogInterface dialog, int id) {
@@ -354,7 +366,7 @@ public class OrderActivity extends Activity {
 								// 获得查询结果
 								String result = HttpUtil.queryStringForPost(url);
                                 //弹出toast
-								Toast.makeText(OrderActivity.this, "已结算", Toast.LENGTH_LONG).show();
+								Toast.makeText(OrderActivity.this, "已结算", Toast.LENGTH_SHORT).show();
 								dialog.cancel();
 								//builder.setdialogvisibility(0);
 								finish();
@@ -428,9 +440,11 @@ public class OrderActivity extends Activity {
 						sa = new SimpleAdapter(OrderActivity.this, data,
 								R.layout.orderdetail_listview2, from, to);
 						// 为ListView绑定数据
-						choice_lv.setAdapter(sa);
-						Toast.
-								makeText(OrderActivity.this, "增加："+nameStr, Toast.LENGTH_LONG).show();
+						//choice_lv.setAdapter(new HadChoiceAdapter(mContext));
+                       // drawList();
+						drawhadList();
+                        Toast.
+								makeText(OrderActivity.this, "增加："+nameStr, Toast.LENGTH_SHORT).show();
 					}
 				})
 				.setNegativeButton("取消", new DialogInterface.OnClickListener() {
@@ -476,10 +490,16 @@ public class OrderActivity extends Activity {
 				request.setEntity(entity1);
 				// 获得返回结果
 				String result= HttpUtil.queryStringForPost(request);
+//                data.clear();
+//                drawhadList();
 				Toast.
-						makeText(OrderActivity.this, "下单成功", Toast.LENGTH_LONG).show();
+						makeText(OrderActivity.this, "下单成功", Toast.LENGTH_SHORT).show();
 			}
+            //drawList();
+           // data.clear();
+           // drawhadList();
 		}
+
 	};
 }
 

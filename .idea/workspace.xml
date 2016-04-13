@@ -10,6 +10,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="084af48a-d7f9-436d-ae3d-a9424fd8726c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/delete.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/OrderActivity$2$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/OrderActivity$2$2.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/util/AddMealDialog$Builder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/util/AddMealDialog$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/MainActivity$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/MainActivity$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/MainActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/MainActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/MainActivity$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/MainActivity$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/MainActivity$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/MainActivity$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/MainActivity$ImageAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/MainActivity$ImageAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/OrderActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/OrderActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/OrderActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/OrderActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/OrderActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/OrderActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/OrderActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/OrderActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/OrderActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/OrderActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/OrderActivity$ChoiceAdapter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/OrderActivity$ChoiceAdapter$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/OrderActivity$ChoiceAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/OrderActivity$ChoiceAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/OrderActivity$ViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/OrderActivity$ViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/OrderActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/OrderActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/zjk/re/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-armeabi-v7a-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-armeabi-v7a-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-armeabi-v7a-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-armeabi-v7a-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-universal-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-universal-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-universal-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-universal-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-x86-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-x86-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-x86-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-x86-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_ce6e1817308adb1ef537ab018f07cd4a88ebc188.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_ce6e1817308adb1ef537ab018f07cd4a88ebc188.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-armeabi-v7a-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-armeabi-v7a-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-universal-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-universal-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-x86-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-x86-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/zjk/re/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/zjk/re/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/zjk/re/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/zjk/re/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/order.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/order.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/order.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/order.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/orderdetail_listview.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/orderdetail_listview.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/orderdetail_listview.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/orderdetail_listview.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/orderdetail_listview2.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/orderdetail_listview2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/orderdetail_listview2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/orderdetail_listview2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="restaurant_android.iws" />
@@ -33,8 +84,8 @@
             <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/MainActivity.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.33238637">
-                    <caret line="271" column="0" selection-start-line="271" selection-start-column="0" selection-end-line="271" selection-end-column="0" />
+                  <state vertical-scroll-proportion="0.875">
+                    <caret line="434" column="84" selection-start-line="434" selection-start-column="84" selection-end-line="434" selection-end-column="84" />
                     <folding />
                   </state>
                 </provider>
@@ -61,16 +112,46 @@
       <file leaf-file-name="OrderActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5522936">
-              <caret line="292" column="8" selection-start-line="292" selection-start-column="8" selection-end-line="292" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.13166144">
+              <caret line="165" column="48" selection-start-line="165" selection-start-column="48" selection-end-line="165" selection-end-column="48" />
               <folding>
-                <element signature="e#4028#4029#0" expanded="true" />
-                <element signature="e#4071#4072#0" expanded="true" />
-                <element signature="e#9571#9592#0" expanded="true" />
-                <element signature="e#9635#9651#0" expanded="true" />
-                <element signature="e#14573#15808#0" expanded="true" />
-                <element signature="e#15807#15808#0" expanded="true" />
+                <element signature="e#4205#4206#0" expanded="true" />
+                <element signature="e#4254#4255#0" expanded="true" />
+                <element signature="e#4292#4293#0" expanded="true" />
+                <element signature="e#4335#4336#0" expanded="true" />
+                <element signature="e#7316#7317#0" expanded="true" />
+                <element signature="e#7380#7381#0" expanded="true" />
+                <element signature="e#7430#7431#0" expanded="true" />
+                <element signature="e#7472#7473#0" expanded="true" />
+                <element signature="e#7537#7538#0" expanded="true" />
+                <element signature="e#7572#7573#0" expanded="true" />
+                <element signature="e#7637#7638#0" expanded="true" />
+                <element signature="e#7669#7670#0" expanded="true" />
+                <element signature="e#8967#9172#0" expanded="true" />
+                <element signature="e#9171#9172#0" expanded="true" />
+                <element signature="e#10040#10061#0" expanded="true" />
+                <element signature="e#10104#10120#0" expanded="true" />
+                <element signature="e#11532#11633#0" expanded="true" />
+                <element signature="e#11632#11633#0" expanded="true" />
+                <element signature="e#11838#12893#0" expanded="true" />
+                <element signature="e#12892#12893#0" expanded="true" />
+                <element signature="e#15061#16446#0" expanded="true" />
+                <element signature="e#15473#15488#0" expanded="true" />
+                <element signature="e#16445#16446#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="order.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/order.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.875">
+              <caret line="80" column="17" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -101,14 +182,34 @@
       </file>
       <file leaf-file-name="orderdetail_listview.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/orderdetail_listview.xml">
-          <provider editor-type-id="android-designer">
+          <provider selected="true" editor-type-id="android-designer">
             <state />
           </provider>
-          <provider selected="true" editor-type-id="text-editor">
+          <provider editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orderdetail_listview2.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/orderdetail_listview2.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/delete.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -1802,9 +1903,10 @@
         <option value="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/check_selector.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/login_system.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/order.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/zjk/provider/OrderDetail.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/orderdetail_listview.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/orderdetail_listview2.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/order.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/zjk/re/MainActivity.java" />
       </list>
@@ -1821,8 +1923,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
+    <option name="x" value="43" />
+    <option name="y" value="75" />
+    <option name="width" value="1309" />
     <option name="height" value="979" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -2206,6 +2309,10 @@
               <option name="myItemId" value="zjk" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2483,19 +2590,26 @@
       <option name="project" value="LOCAL" />
       <updated>1460509658418</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="增加已经上菜的checkbox">
+      <created>1460519760274</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1460519760274</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="979" extended-state="6" />
-    <editor active="false" />
+    <frame x="43" y="75" width="1309" height="979" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21997549" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32945284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11175786" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22118743" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41094297" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -2504,19 +2618,18 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32945284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32945284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32945284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18872549" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2442506" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26076832" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22028986" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -2542,42 +2655,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
-          <line>140</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
-          <line>112</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
-          <line>95</line>
-          <properties />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
-          <line>90</line>
-          <properties />
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
-          <line>191</line>
-          <properties />
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
-          <line>120</line>
-          <properties />
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/MainActivity.java</url>
           <line>269</line>
           <properties />
@@ -2596,73 +2673,155 @@
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
-          <line>176</line>
-          <properties />
-          <option name="timeStamp" value="69" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
-          <line>178</line>
-          <properties />
-          <option name="timeStamp" value="70" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
-          <line>175</line>
-          <properties />
-          <option name="timeStamp" value="71" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
-          <line>174</line>
-          <properties />
-          <option name="timeStamp" value="72" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
-          <line>272</line>
-          <properties />
-          <option name="timeStamp" value="73" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
-          <line>274</line>
-          <properties />
-          <option name="timeStamp" value="74" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
-          <line>277</line>
-          <properties />
-          <option name="timeStamp" value="75" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
-          <line>276</line>
-          <properties />
-          <option name="timeStamp" value="76" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/MainActivity.java</url>
           <line>273</line>
           <properties />
           <option name="timeStamp" value="98" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
+          <line>497</line>
+          <properties />
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
+          <line>498</line>
+          <properties />
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
+          <line>499</line>
+          <properties />
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
+          <line>485</line>
+          <properties />
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
+          <line>487</line>
+          <properties />
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
+          <line>489</line>
+          <properties />
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
+          <line>491</line>
+          <properties />
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
+          <line>465</line>
+          <properties />
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
+          <line>467</line>
+          <properties />
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
+          <line>468</line>
+          <properties />
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
+          <line>469</line>
+          <properties />
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
+          <line>470</line>
+          <properties />
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
+          <line>472</line>
+          <properties />
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
+          <line>474</line>
+          <properties />
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
+          <line>476</line>
+          <properties />
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
+          <line>475</line>
+          <properties />
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
+          <line>477</line>
+          <properties />
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
+          <line>478</line>
+          <properties />
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
+          <line>480</line>
+          <properties />
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
+          <line>483</line>
+          <properties />
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
+          <line>482</line>
+          <properties />
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
+          <line>494</line>
+          <properties />
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java</url>
+          <line>495</line>
+          <properties />
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="99" />
+      <option name="time" value="151" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="89" column="33" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/login_system.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
@@ -2690,12 +2849,29 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
           <folding>
-            <element signature="e#4028#4029#0" expanded="true" />
-            <element signature="e#4071#4072#0" expanded="true" />
-            <element signature="e#9571#9592#0" expanded="true" />
-            <element signature="e#9635#9651#0" expanded="true" />
-            <element signature="e#14573#15808#0" expanded="true" />
-            <element signature="e#15807#15808#0" expanded="true" />
+            <element signature="e#4205#4206#0" expanded="true" />
+            <element signature="e#4254#4255#0" expanded="true" />
+            <element signature="e#4292#4293#0" expanded="true" />
+            <element signature="e#4335#4336#0" expanded="true" />
+            <element signature="e#7316#7317#0" expanded="true" />
+            <element signature="e#7380#7381#0" expanded="true" />
+            <element signature="e#7430#7431#0" expanded="true" />
+            <element signature="e#7472#7473#0" expanded="true" />
+            <element signature="e#7537#7538#0" expanded="true" />
+            <element signature="e#7572#7573#0" expanded="true" />
+            <element signature="e#7637#7638#0" expanded="true" />
+            <element signature="e#7669#7670#0" expanded="true" />
+            <element signature="e#8967#9172#0" expanded="true" />
+            <element signature="e#9171#9172#0" expanded="true" />
+            <element signature="e#10040#10061#0" expanded="true" />
+            <element signature="e#10104#10120#0" expanded="true" />
+            <element signature="e#11532#11633#0" expanded="true" />
+            <element signature="e#11632#11633#0" expanded="true" />
+            <element signature="e#11838#12893#0" expanded="true" />
+            <element signature="e#12892#12893#0" expanded="true" />
+            <element signature="e#15061#16446#0" expanded="true" />
+            <element signature="e#15473#15488#0" expanded="true" />
+            <element signature="e#16445#16446#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2746,12 +2922,29 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
           <folding>
-            <element signature="e#4028#4029#0" expanded="true" />
-            <element signature="e#4071#4072#0" expanded="true" />
-            <element signature="e#9571#9592#0" expanded="true" />
-            <element signature="e#9635#9651#0" expanded="true" />
-            <element signature="e#14573#15808#0" expanded="true" />
-            <element signature="e#15807#15808#0" expanded="true" />
+            <element signature="e#4205#4206#0" expanded="true" />
+            <element signature="e#4254#4255#0" expanded="true" />
+            <element signature="e#4292#4293#0" expanded="true" />
+            <element signature="e#4335#4336#0" expanded="true" />
+            <element signature="e#7316#7317#0" expanded="true" />
+            <element signature="e#7380#7381#0" expanded="true" />
+            <element signature="e#7430#7431#0" expanded="true" />
+            <element signature="e#7472#7473#0" expanded="true" />
+            <element signature="e#7537#7538#0" expanded="true" />
+            <element signature="e#7572#7573#0" expanded="true" />
+            <element signature="e#7637#7638#0" expanded="true" />
+            <element signature="e#7669#7670#0" expanded="true" />
+            <element signature="e#8967#9172#0" expanded="true" />
+            <element signature="e#9171#9172#0" expanded="true" />
+            <element signature="e#10040#10061#0" expanded="true" />
+            <element signature="e#10104#10120#0" expanded="true" />
+            <element signature="e#11532#11633#0" expanded="true" />
+            <element signature="e#11632#11633#0" expanded="true" />
+            <element signature="e#11838#12893#0" expanded="true" />
+            <element signature="e#12892#12893#0" expanded="true" />
+            <element signature="e#15061#16446#0" expanded="true" />
+            <element signature="e#15473#15488#0" expanded="true" />
+            <element signature="e#16445#16446#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2802,12 +2995,29 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
           <folding>
-            <element signature="e#4028#4029#0" expanded="true" />
-            <element signature="e#4071#4072#0" expanded="true" />
-            <element signature="e#9571#9592#0" expanded="true" />
-            <element signature="e#9635#9651#0" expanded="true" />
-            <element signature="e#14573#15808#0" expanded="true" />
-            <element signature="e#15807#15808#0" expanded="true" />
+            <element signature="e#4205#4206#0" expanded="true" />
+            <element signature="e#4254#4255#0" expanded="true" />
+            <element signature="e#4292#4293#0" expanded="true" />
+            <element signature="e#4335#4336#0" expanded="true" />
+            <element signature="e#7316#7317#0" expanded="true" />
+            <element signature="e#7380#7381#0" expanded="true" />
+            <element signature="e#7430#7431#0" expanded="true" />
+            <element signature="e#7472#7473#0" expanded="true" />
+            <element signature="e#7537#7538#0" expanded="true" />
+            <element signature="e#7572#7573#0" expanded="true" />
+            <element signature="e#7637#7638#0" expanded="true" />
+            <element signature="e#7669#7670#0" expanded="true" />
+            <element signature="e#8967#9172#0" expanded="true" />
+            <element signature="e#9171#9172#0" expanded="true" />
+            <element signature="e#10040#10061#0" expanded="true" />
+            <element signature="e#10104#10120#0" expanded="true" />
+            <element signature="e#11532#11633#0" expanded="true" />
+            <element signature="e#11632#11633#0" expanded="true" />
+            <element signature="e#11838#12893#0" expanded="true" />
+            <element signature="e#12892#12893#0" expanded="true" />
+            <element signature="e#15061#16446#0" expanded="true" />
+            <element signature="e#15473#15488#0" expanded="true" />
+            <element signature="e#16445#16446#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2858,12 +3068,29 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
           <folding>
-            <element signature="e#4028#4029#0" expanded="true" />
-            <element signature="e#4071#4072#0" expanded="true" />
-            <element signature="e#9571#9592#0" expanded="true" />
-            <element signature="e#9635#9651#0" expanded="true" />
-            <element signature="e#14573#15808#0" expanded="true" />
-            <element signature="e#15807#15808#0" expanded="true" />
+            <element signature="e#4205#4206#0" expanded="true" />
+            <element signature="e#4254#4255#0" expanded="true" />
+            <element signature="e#4292#4293#0" expanded="true" />
+            <element signature="e#4335#4336#0" expanded="true" />
+            <element signature="e#7316#7317#0" expanded="true" />
+            <element signature="e#7380#7381#0" expanded="true" />
+            <element signature="e#7430#7431#0" expanded="true" />
+            <element signature="e#7472#7473#0" expanded="true" />
+            <element signature="e#7537#7538#0" expanded="true" />
+            <element signature="e#7572#7573#0" expanded="true" />
+            <element signature="e#7637#7638#0" expanded="true" />
+            <element signature="e#7669#7670#0" expanded="true" />
+            <element signature="e#8967#9172#0" expanded="true" />
+            <element signature="e#9171#9172#0" expanded="true" />
+            <element signature="e#10040#10061#0" expanded="true" />
+            <element signature="e#10104#10120#0" expanded="true" />
+            <element signature="e#11532#11633#0" expanded="true" />
+            <element signature="e#11632#11633#0" expanded="true" />
+            <element signature="e#11838#12893#0" expanded="true" />
+            <element signature="e#12892#12893#0" expanded="true" />
+            <element signature="e#15061#16446#0" expanded="true" />
+            <element signature="e#15473#15488#0" expanded="true" />
+            <element signature="e#16445#16446#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2903,12 +3130,29 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#4028#4029#0" expanded="true" />
-            <element signature="e#4071#4072#0" expanded="true" />
-            <element signature="e#9571#9592#0" expanded="true" />
-            <element signature="e#9635#9651#0" expanded="true" />
-            <element signature="e#14573#15808#0" expanded="true" />
-            <element signature="e#15807#15808#0" expanded="true" />
+            <element signature="e#4205#4206#0" expanded="true" />
+            <element signature="e#4254#4255#0" expanded="true" />
+            <element signature="e#4292#4293#0" expanded="true" />
+            <element signature="e#4335#4336#0" expanded="true" />
+            <element signature="e#7316#7317#0" expanded="true" />
+            <element signature="e#7380#7381#0" expanded="true" />
+            <element signature="e#7430#7431#0" expanded="true" />
+            <element signature="e#7472#7473#0" expanded="true" />
+            <element signature="e#7537#7538#0" expanded="true" />
+            <element signature="e#7572#7573#0" expanded="true" />
+            <element signature="e#7637#7638#0" expanded="true" />
+            <element signature="e#7669#7670#0" expanded="true" />
+            <element signature="e#8967#9172#0" expanded="true" />
+            <element signature="e#9171#9172#0" expanded="true" />
+            <element signature="e#10040#10061#0" expanded="true" />
+            <element signature="e#10104#10120#0" expanded="true" />
+            <element signature="e#11532#11633#0" expanded="true" />
+            <element signature="e#11632#11633#0" expanded="true" />
+            <element signature="e#11838#12893#0" expanded="true" />
+            <element signature="e#12892#12893#0" expanded="true" />
+            <element signature="e#15061#16446#0" expanded="true" />
+            <element signature="e#15473#15488#0" expanded="true" />
+            <element signature="e#16445#16446#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3025,17 +3269,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/orderdetail_listview2.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/login_system.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -3043,17 +3276,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.75">
           <caret line="159" column="16" selection-start-line="159" selection-start-column="16" selection-end-line="170" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/order.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="21.0">
-          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -3085,15 +3307,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/orderdetail_listview.xml">
-      <provider editor-type-id="android-designer">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/check.png">
+      <provider selected="true" editor-type-id="images">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
-          <folding />
-        </state>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/delete.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/checked.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/LoginActivity.java">
@@ -3104,35 +3330,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/check.png">
-      <provider selected="true" editor-type-id="images">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/orderdetail_listview.xml">
+      <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/checked.png">
-      <provider selected="true" editor-type-id="images">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/orderdetail_listview2.xml">
+      <provider selected="true" editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/order.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.875">
+          <caret line="80" column="17" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33238637">
-          <caret line="271" column="0" selection-start-line="271" selection-start-column="0" selection-end-line="271" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.875">
+          <caret line="434" column="84" selection-start-line="434" selection-start-column="84" selection-end-line="434" selection-end-column="84" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zjk/re/OrderActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5522936">
-          <caret line="292" column="8" selection-start-line="292" selection-start-column="8" selection-end-line="292" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.13166144">
+          <caret line="165" column="48" selection-start-line="165" selection-start-column="48" selection-end-line="165" selection-end-column="48" />
           <folding>
-            <element signature="e#4028#4029#0" expanded="true" />
-            <element signature="e#4071#4072#0" expanded="true" />
-            <element signature="e#9571#9592#0" expanded="true" />
-            <element signature="e#9635#9651#0" expanded="true" />
-            <element signature="e#14573#15808#0" expanded="true" />
-            <element signature="e#15807#15808#0" expanded="true" />
+            <element signature="e#4205#4206#0" expanded="true" />
+            <element signature="e#4254#4255#0" expanded="true" />
+            <element signature="e#4292#4293#0" expanded="true" />
+            <element signature="e#4335#4336#0" expanded="true" />
+            <element signature="e#7316#7317#0" expanded="true" />
+            <element signature="e#7380#7381#0" expanded="true" />
+            <element signature="e#7430#7431#0" expanded="true" />
+            <element signature="e#7472#7473#0" expanded="true" />
+            <element signature="e#7537#7538#0" expanded="true" />
+            <element signature="e#7572#7573#0" expanded="true" />
+            <element signature="e#7637#7638#0" expanded="true" />
+            <element signature="e#7669#7670#0" expanded="true" />
+            <element signature="e#8967#9172#0" expanded="true" />
+            <element signature="e#9171#9172#0" expanded="true" />
+            <element signature="e#10040#10061#0" expanded="true" />
+            <element signature="e#10104#10120#0" expanded="true" />
+            <element signature="e#11532#11633#0" expanded="true" />
+            <element signature="e#11632#11633#0" expanded="true" />
+            <element signature="e#11838#12893#0" expanded="true" />
+            <element signature="e#12892#12893#0" expanded="true" />
+            <element signature="e#15061#16446#0" expanded="true" />
+            <element signature="e#15473#15488#0" expanded="true" />
+            <element signature="e#16445#16446#0" expanded="true" />
           </folding>
         </state>
       </provider>

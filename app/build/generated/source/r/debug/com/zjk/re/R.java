@@ -31,19 +31,20 @@ public final class R {
         public static final int check=0x7f020006;
         public static final int check_selector=0x7f020007;
         public static final int checked=0x7f020008;
-        public static final int dialog_bottom_bg=0x7f020009;
-        public static final int dialog_div=0x7f02000a;
-        public static final int dizhi=0x7f02000b;
-        public static final int icon=0x7f02000c;
-        public static final int main_bottom_div=0x7f02000d;
-        public static final int mima=0x7f02000e;
-        public static final int shape=0x7f02000f;
-        public static final int table_icon1=0x7f020010;
-        public static final int table_icon2=0x7f020011;
-        public static final int touxiang=0x7f020012;
-        public static final int weixin=0x7f020013;
-        public static final int zhanghao=0x7f020014;
-        public static final int zhifubo=0x7f020015;
+        public static final int delete=0x7f020009;
+        public static final int dialog_bottom_bg=0x7f02000a;
+        public static final int dialog_div=0x7f02000b;
+        public static final int dizhi=0x7f02000c;
+        public static final int icon=0x7f02000d;
+        public static final int main_bottom_div=0x7f02000e;
+        public static final int mima=0x7f02000f;
+        public static final int shape=0x7f020010;
+        public static final int table_icon1=0x7f020011;
+        public static final int table_icon2=0x7f020012;
+        public static final int touxiang=0x7f020013;
+        public static final int weixin=0x7f020014;
+        public static final int zhanghao=0x7f020015;
+        public static final int zhifubo=0x7f020016;
     }
     public static final class id {
         public static final int addfood_btn=0x7f08002c;
@@ -56,6 +57,7 @@ public final class R {
         public static final int check_table_TextView02=0x7f080011;
         public static final int check_table_gridview=0x7f08000a;
         public static final int content=0x7f080012;
+        public static final int delete_ListView=0x7f080038;
         public static final int editText=0x7f080005;
         public static final int editText2=0x7f080007;
         public static final int id_ListView=0x7f080033;
@@ -91,9 +93,9 @@ public final class R {
         public static final int remark_list=0x7f080031;
         public static final int rememberPsw=0x7f080022;
         public static final int spinner2=0x7f080003;
-        public static final int spinner_id=0x7f080038;
-        public static final int spinner_name=0x7f080039;
-        public static final int spinner_price=0x7f08003a;
+        public static final int spinner_id=0x7f080039;
+        public static final int spinner_name=0x7f08003a;
+        public static final int spinner_price=0x7f08003b;
         public static final int state_list=0x7f080032;
         public static final int submitorder_btn=0x7f08002d;
         public static final int tableLayout1=0x7f08001d;
@@ -102,7 +104,7 @@ public final class R {
         public static final int textView3=0x7f080002;
         public static final int textView4=0x7f080004;
         public static final int textView5=0x7f080006;
-        public static final int textView6=0x7f08003b;
+        public static final int textView6=0x7f08003c;
         public static final int title=0x7f080000;
         public static final int update_btn=0x7f08000c;
         public static final int userEditText=0x7f08001f;

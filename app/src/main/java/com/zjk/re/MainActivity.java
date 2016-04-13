@@ -271,7 +271,7 @@ public class MainActivity extends Activity{
 								// 调用http服务器查询方法获得返回结果
 								String result = HttpUtil.queryStringForPost(url);
 								// 换桌成功，弹出toast
-								Toast.makeText(MainActivity.this, result, Toast.LENGTH_LONG).show();
+								Toast.makeText(MainActivity.this, result, Toast.LENGTH_SHORT).show();
 								//清空餐桌list
 								list.clear();
 								//重新获得餐桌list
@@ -281,7 +281,7 @@ public class MainActivity extends Activity{
 								dialog.cancel();
 							} else {
 								Toast.
-										makeText(MainActivity.this, "输入有误！请重新输入", Toast.LENGTH_LONG).show();
+										makeText(MainActivity.this, "输入有误！请重新输入", Toast.LENGTH_SHORT).show();
 
 //
 							}
@@ -343,7 +343,7 @@ public class MainActivity extends Activity{
 						   // 获得系统给的订单id
 						   orderId = result;
 						   Toast.
-								   makeText(MainActivity.this, "开桌成功！你的订单号：" + result, Toast.LENGTH_LONG).show();
+								   makeText(MainActivity.this, "开桌成功！你的订单号：" + result, Toast.LENGTH_SHORT).show();
 						   //重绘girdview
 						   //清空tablelist
 						   list.clear();
@@ -429,12 +429,14 @@ public class MainActivity extends Activity{
 				//设置gridviewAdapter
 				gv.setAdapter(new ImageAdapter(MainActivity.this));
                //弹出toast
-				Toast
-						.makeText(MainActivity.this, "更新成功", Toast.LENGTH_LONG).show();
+
 			}
+			Toast
+					.makeText(MainActivity.this, "更新成功", Toast.LENGTH_SHORT).show();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+
 	}
 
 

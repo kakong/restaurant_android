@@ -21,7 +21,7 @@
         <TextView
     android:text="菜名"
     android:id="@+id/name_ListView"
-    android:layout_width="wrap_content"
+    android:layout_width="140dp"
     android:layout_height="wrap_content"
         style="@style/text_20_ffffff_sdw"
             android:paddingLeft="10dp"
@@ -33,36 +33,41 @@
         <TextView
     android:text="数量"
     android:id="@+id/num_ListView"
-    android:layout_width="wrap_content"
+    android:layout_width="40dp"
     android:layout_height="wrap_content"
         style="@style/text_20_ffffff_sdw"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
             android:paddingLeft="15dp"
-            android:layout_marginLeft="15dp" />
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/name_ListView" />
 
         <TextView
     android:text="价格"
     android:id="@+id/price_ListView"
-    android:layout_width="wrap_content"
+    android:layout_width="40dp"
     android:layout_height="wrap_content"
         style="@style/text_20_ffffff_sdw"
+            android:paddingLeft="10dp"
             android:layout_alignParentTop="true"
-            android:layout_toRightOf="@+id/num_ListView"
-            android:layout_marginLeft="30dp"
-            android:paddingLeft="10dp" />
+            android:layout_toRightOf="@+id/num_ListView" />
 
         <TextView
     android:text="    备注"
     android:id="@+id/remark_ListView"
-    android:layout_width="wrap_content"
+    android:layout_width="120dp"
     android:layout_height="wrap_content"
         style="@style/text_20_ffffff_sdw"
             android:visibility="visible"
             android:layout_alignParentTop="true"
-            android:layout_alignParentRight="true"
             android:layout_marginLeft="10dp"
             android:layout_toRightOf="@+id/price_ListView" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/delete_ListView"
+            android:background="@drawable/delete"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/remark_ListView" />
     </RelativeLayout>
 
 </LinearLayout>
