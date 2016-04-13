@@ -8,7 +8,7 @@
         android:layout_height="37dp">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="140dp"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="菜名"
@@ -19,25 +19,26 @@
             android:layout_marginLeft="5dp" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="数量"
             android:id="@+id/num_list"
             style="@style/text_20_ffffff_sdw"
             android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true" />
+            android:layout_toRightOf="@+id/name_list"
+            android:textAlignment="textStart" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="价格"
             android:id="@+id/price_list"
             style="@style/text_20_ffffff_sdw"
+            android:textAlignment="textEnd"
             android:layout_alignParentTop="true"
-            android:layout_toRightOf="@+id/num_list"
-            android:layout_marginLeft="15dp" />
+            android:layout_toRightOf="@+id/num_list" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -49,6 +50,16 @@
             android:layout_toRightOf="@+id/price_list"
             android:layout_marginLeft="10dp"
             style="@style/text_20_ffffff_sdw" />
-
+        <CheckBox
+            android:id="@+id/state_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/check_selector"
+            android:textColor="@color/mainColor"
+            android:layout_marginRight="27dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="3dp"
+            android:checked="false" />
     </RelativeLayout>
 </LinearLayout>

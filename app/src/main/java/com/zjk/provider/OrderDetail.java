@@ -4,11 +4,29 @@ package com.zjk.provider;
  * Created by zhongjiakang on 16/1/26.
  */
 public class OrderDetail {
+    public  int oid;
     public String name;
     public int price;
     public String remark;
     public int num;
     public int total;
+    public  int state;
+
+    public int getOid() {
+        return oid;
+    }
+
+    public void setOid(int oid) {
+        this.oid = oid;
+    }
+
+    public int getState() {
+        return state;
+    }
+
+    public void setState(int state) {
+        this.state = state;
+    }
 
     public String getName() {
         return name;

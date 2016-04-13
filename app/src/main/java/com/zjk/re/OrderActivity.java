@@ -1,19 +1,23 @@
 package com.zjk.re;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.zjk.provider.OrderDetail;
 import com.zjk.util.AddMealDialog;
 import com.zjk.util.CustomDialog;
 import com.zjk.util.HttpUtil;
@@ -42,6 +46,8 @@ public class OrderActivity extends Activity {
 	private List data = new ArrayList();
 	//已点的菜列表
 	private  List odlist = new ArrayList();
+
+	private List<Map<String, Object>> orderlist;
 	// 点菜列表中具体的数据项
 	private Map map,map1;
 	// ListView 的 Adapter
@@ -81,20 +87,108 @@ public class OrderActivity extends Activity {
         //菜单详情
 		orderdetail_lv = (ListView)findViewById(R.id.orderDetailListView);
 		//声明adapter
-		SimpleAdapter adapter = new SimpleAdapter(this,getOrderDetailList(),R.layout.orderdetail_listview,
-				new String[]{"name","num","price","remark"},
-				new int[]{R.id.name_list,R.id.num_list,R.id.price_list,R.id.remark_list});
+        orderlist = getOrderDetailList();
+    //    getOrderDetailList();
+		SimpleAdapter adapter = new SimpleAdapter(this,odlist,R.layout.orderdetail_listview,
+				new String[]{"name","num","price","remark","state"},
+				new int[]{R.id.name_list,R.id.num_list,R.id.price_list,R.id.remark_list,R.id.state_list});
 		//设置菜单adapter
-		orderdetail_lv.setAdapter(adapter);
+		orderdetail_lv.setAdapter(new ChoiceAdapter(this));
+//		orderdetail_lv.setAdapter(adapter);
+//		CheckBox cb = (CheckBox)orderdetail_lv.findViewById(R.id.state_list);
+
+		//if orderlist.get()
+//		orderdetail_lv.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
+//        orderdetail_lv.findViewById(R.id.state_list);
+
 		//设置顶部信息数据
-		orderDetailNumber_tv.setText(orderDetailNumber_tv.getText().toString()+""+orderDetailNumber+"个");
+		orderDetailNumber_tv.setText(orderDetailNumber_tv.getText().toString() + "" + orderDetailNumber + "个");
 		orderDetailTotal_tv.setText(orderDetailTotal_tv.getText().toString() + "" + orderDetailTotal + "元");
 		// 实例化ListView
 		choice_lv = (ListView) findViewById(R.id.orderDetailListView01);
 		// 为点菜列表ListView绑定数据
 		setMenusAdapter();
 	}
+	//重写已点菜单接口
+	public class ChoiceAdapter extends BaseAdapter{
+		private Context mContext;
+        private LayoutInflater mInflater;
+		public ChoiceAdapter(Context c){
+			this.mInflater  = LayoutInflater.from(c);
+		}
+		@Override
+		public int getCount() {
+			return getOrderDetailList().size();
+		}
 
+		@Override
+		public Object getItem(int position) {
+			return null;
+		}
+
+		@Override
+		public long getItemId(int position) {
+			return 0;
+		}
+
+		@Override
+		public View getView(int position, View convertView, ViewGroup parent) {
+			//LayoutInflater inflater = LayoutInflater.from(OrderActivity.this);
+			final ViewHolder holder;
+			View v = null;
+
+
+			if (convertView == null) {
+				// // 实例化图片视图
+				convertView = mInflater.inflate(R.layout.orderdetail_listview,null);
+				// 设置图片视图属性
+				//v.setPadding(9, 9, 9, 9);
+			}
+			holder = new ViewHolder();
+
+			holder.name = (TextView)convertView.findViewById(R.id.name_list);
+			holder.num = (TextView)convertView.findViewById(R.id.num_list);
+			holder.price = (TextView)convertView.findViewById(R.id.price_list);
+			holder.remark = (TextView)convertView.findViewById(R.id.remark_list);
+			holder.state = (CheckBox)convertView.findViewById(R.id.state_list);
+
+			// orderlist.get(position);
+			holder.name.setText(orderlist.get(position).get("name").toString());
+			holder.num.setText(orderlist.get(position).get("num").toString());
+			holder.price.setText(orderlist.get(position).get("price").toString());
+			holder.remark.setText(orderlist.get(position).get("remark").toString());
+			if(orderlist.get(position).get("state").toString()=="0"){
+				holder.state.setChecked(false);
+			}else if(orderlist.get(position).get("state").toString()=="1"){
+				holder.state.setChecked(true);
+			}else {
+				holder.state.setChecked(false);
+			}
+
+			holder.state.setOnClickListener(new OnClickListener() {
+				@Override
+				public void onClick(View v) {
+					int i;
+
+					if(holder.state.isChecked()){
+					//	holder.state.seton
+						Toast.makeText(getApplicationContext(), "1",
+								Toast.LENGTH_SHORT).show();
+						i=1;
+					}else{
+						Toast.makeText(getApplicationContext(), "0",
+								Toast.LENGTH_SHORT).show();
+						i = 0;
+					}
+				}
+			});
+			return convertView;
+		}
+	}
+	public final class ViewHolder{
+		public TextView name,num,price,remark;
+		public CheckBox state;
+	}
 	// 为点菜列表ListView绑定数据
 	private void setMenusAdapter(){
 		// 显示点菜项的TextView引用
@@ -109,42 +203,112 @@ public class OrderActivity extends Activity {
 		choice_lv.setAdapter(sa);
 	}
 
-	private List<Map<String, Object>> getOrderDetailList(){
+//	private void getOrderDetailList(){
+//		// 访问服务器url
+//		String url = HttpUtil.BASE_URL+"servlet/PayServlet?id="+orderId;
+//		// 查询返回结果
+//		String result = HttpUtil.queryStringForPost(url);
+//		// 拆分字符串，转换成对象，添加到列表
+//		List<Map<String, Object>> list = new ArrayList<Map<String, Object>>();
+//		Map<String, Object> map = new HashMap<String, Object>();
+//		if (!result.equals("")) {
+//			String[] strs = result.split(";");
+//			for (int i = 0; i < strs.length; i++) {
+//				map = new HashMap<String, Object>();
+//				int idx = strs[i].indexOf("[");
+//				int idx1 = strs[i].indexOf(",");
+//				int idx2 = strs[i].indexOf(".");
+//				int idx3 = strs[i].indexOf("'");
+//				int idx4 = strs[i].indexOf("*");
+//				int idx5 = strs[i].indexOf("]");
+//				int j = strs[i].length();
+//				int oid = Integer.parseInt(strs[i].substring(0, idx));
+//				String name = strs[i].substring(idx + 1, idx1);
+//				int price = Integer.parseInt(strs[i].substring(idx1 + 1, idx2));
+//				int num = Integer.parseInt(strs[i].substring(idx2 + 1, idx3));
+//				int total = Integer.parseInt(strs[i].substring(idx3 + 1, idx4));
+//				String remark = strs[i].substring(idx4 + 1, idx5);
+//				int state = Integer.parseInt(strs[i].substring(idx5 + 1));
+//				if (state != -1) {
+//					OrderDetail od = new OrderDetail();
+//					od.setOid(oid);
+//					od.setName(name);
+//					od.setPrice(price);
+//					od.setNum(num);
+//					od.setTotal(total);
+//					od.setRemark(remark);
+//					od.setState(state);
+//
+//					//map.put("oid",oid);
+////				map.put("name", name);
+////				map.put("num", num);
+////				map.put("price", price);
+////				map.put("remark", remark);
+////				map.put("state",state);
+//					odlist.add(od);
+////				list.add(map);
+//					orderDetailNumber++;
+//					orderDetailTotal += total;
+//				}
+//			}
+//		}else {
+//			map = new HashMap<String, Object>();
+//			map.put("name","");
+//			map.put("num", "");
+//			map.put("price", "");
+//			map.put("remark", "");
+//			map.put("state"," ");
+//			odlist.add(map);
+//		}
+//	}
+	private ArrayList<Map<String, Object>> getOrderDetailList(){
 		// 访问服务器url
 		String url = HttpUtil.BASE_URL+"servlet/PayServlet?id="+orderId;
 		// 查询返回结果
 		String result = HttpUtil.queryStringForPost(url);
 		// 拆分字符串，转换成对象，添加到列表
-		List<Map<String, Object>> list = new ArrayList<Map<String, Object>>();
+		ArrayList<Map<String, Object>> list = new ArrayList<Map<String, Object>>();
 		Map<String, Object> map = new HashMap<String, Object>();
         if (!result.equals("")) {
 			String[] strs = result.split(";");
 			for (int i = 0; i < strs.length; i++) {
 				map = new HashMap<String, Object>();
-				int idx = strs[i].indexOf(",");
-				int idx1 = strs[i].indexOf(".");
-				int idx2 = strs[i].indexOf("'");
-				int idx3 = strs[i].indexOf("*");
+				int idx = strs[i].indexOf("[");
+				int idx1 = strs[i].indexOf(",");
+				int idx2 = strs[i].indexOf(".");
+				int idx3 = strs[i].indexOf("'");
+				int idx4 = strs[i].indexOf("*");
+				int idx5 = strs[i].indexOf("]");
 				int j = strs[i].length();
-				String name = strs[i].substring(0, idx);
-				int price = Integer.parseInt(strs[i].substring(idx + 1, idx1));
-				int num = Integer.parseInt(strs[i].substring(idx1 + 1, idx2));
-				int total = Integer.parseInt(strs[i].substring(idx2 + 1, idx3));
-				String remark = strs[i].substring(idx3 + 1);
-				OrderDetail od = new OrderDetail();
-				od.setName(name);
-				od.setPrice(price);
-				od.setNum(num);
-				od.setTotal(total);
-				od.setRemark(remark);
-				map.put("name", name);
-				map.put("num", num);
-				map.put("price", price);
-				map.put("remark", remark);
-				odlist.add(od);
-				list.add(map);
-				orderDetailNumber++;
-				orderDetailTotal+=total;
+				int oid = Integer.parseInt(strs[i].substring(0, idx));
+				String name = strs[i].substring(idx + 1, idx1);
+				int price = Integer.parseInt(strs[i].substring(idx1 + 1, idx2));
+				int num = Integer.parseInt(strs[i].substring(idx2 + 1, idx3));
+				int total = Integer.parseInt(strs[i].substring(idx3 + 1, idx4));
+				String remark = strs[i].substring(idx4 + 1, idx5);
+				int state = Integer.parseInt(strs[i].substring(idx5 + 1));
+				if (state != -1) {
+//					OrderDetail od = new OrderDetail();
+//					od.setOid(oid);
+//					od.setName(name);
+//					od.setPrice(price);
+//					od.setNum(num);
+//					od.setTotal(total);
+//					od.setRemark(remark);
+//					od.setState(state);
+
+					//map.put("oid",oid);
+					map.put("name", name);
+					map.put("num", num);
+					map.put("price", price);
+					map.put("remark", remark);
+					map.put("state", state);
+
+					//odlist.add(od);
+					list.add(map);
+					orderDetailNumber++;
+					orderDetailTotal += total;
+				}
 			}
 		}else {
 			map = new HashMap<String, Object>();
@@ -152,6 +316,7 @@ public class OrderActivity extends Activity {
 			map.put("num", "");
 			map.put("price", "");
 			map.put("remark", "");
+			map.put("state"," ");
 			list.add(map);
 		}
 		return list;

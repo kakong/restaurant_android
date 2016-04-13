@@ -244,8 +244,10 @@ public class MainActivity extends Activity{
 		//声明弹窗
 		final CustomDialog.Builder builder = new CustomDialog.Builder(this);
 		//设置弹窗内容
-		builder.setEditText1("请输入订到号");
-		builder.setEditText2("更换到的桌号");
+//		builder.setEditText1("请输入订到号");
+//		builder.setEditText2("更换到的桌号");
+		builder.setEditText1Hint("请输入订单号");
+		builder.setEditText2Hint("更换到的桌号");
 		builder.setInputType(InputType.TYPE_CLASS_NUMBER);
 			builder.setTitle("更换桌号")
 

@@ -35,7 +35,7 @@
         android:layout_height="25dp">
 
         <TextView
-            android:layout_width="160dp"
+            android:layout_width="140dp"
             android:layout_height="fill_parent"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="已点："
@@ -48,7 +48,7 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="数量  单价  总价："
+            android:text="数量 单价  总价："
             android:id="@+id/orderDetailTotal_textView"
             style="@style/text_24_ffffff_sdw"
             android:background="@color/mainColor" />

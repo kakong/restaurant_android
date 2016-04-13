@@ -10,7 +10,14 @@ sourceSets.main{
         minSdkVersion 9
         targetSdkVersion 9
     }
-
+    splits {
+        abi {
+            enable true
+            reset()
+            include 'x86', 'armeabi-v7a'
+            universalApk true
+        }
+    }
     buildTypes {
         release {
             minifyEnabled false
